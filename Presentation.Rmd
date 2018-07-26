@@ -1,0 +1,43 @@
+---
+title: "Application Presentation"
+author: "Karen Velasquez Mona"
+date: "25 de julio de 2018"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Introduction 
+
+This is the presentation about the application created with the bright package that allow to create application using the different statistical techniques that you can apply about differents data types.
+
+Shiny is an R package that makes it easy to build interactive web apps straight from R. In this case I used R Studio to make my application.
+
+## About the app
+
+This app recolect the information about the two data bases iris and attitude.
+
+- Iris: This data base has gives the measurements in centimeters of the variables sepal length and width and petal length and width, respectively, for 50 flowers from each of 3 species of iris. The species are Iris setosa, versicolor, and virginica.
+
+- attitude: This data was created rom a survey of the clerical employees of a large financial organization, the data are aggregated from the questionnaires of the approximately 35 employees for each of 30 (randomly selected) departments. The numbers give the percent proportion of favourable responses to seven questions in each department.
+
+## About the app
+
+With the data set you can choose a dataset to know it summary and you can see the top of the data, according the registers that you want to know.
+
+When you select the data in the next page you can apply a statistics method in this case is kmeans.
+
+## Apply the method
+
+In this case the method to apply in the data set is kmeans
+
+- Kmeans: Is a grouping method, which aims to partition a set of n observations into k groups in which each belongs to the group whose average value is closest. It is a method used in data mining.
+
+You select the number to clusters and select the variables, then you can see the performance in a plot.
+
+## Application
+
+
+You can find the application in <https://kvelasqu1.shinyapps.io/karen/>
